@@ -52,6 +52,10 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 
+# install samtools, bedtools
+sudo apt-get install -y bedtools
+
+
 # clean VM at the end
 sudo apt-get -y clean
 sudo apt-get -y autoclean
