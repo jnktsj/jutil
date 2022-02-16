@@ -41,6 +41,17 @@ pip3 install virtualenv jupyter
 sudo apt-get install -y r-base r-base-dev r-recommended
 
 
+# set up github
+git config --global user.name "Junko Tsuji"
+git config --global user.email $(whoami)@broadinstitute.org
+git config --global core.editor emacs
+# after generating the key, add the public key to github account:
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+ssh-keygen -t rsa -b 4096 -C $(whoami)@broadinstitute.org
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+
 # clean VM at the end
 sudo apt-get -y clean
 sudo apt-get -y autoclean
