@@ -28,7 +28,8 @@ cd slurm_gcp_docker
 #      - 'realmemory' = GB x 1024 - (memory for OS)
 #  2. Move the json file to slurm_gcp_docker/src
 #  3. Add a "COPY nodetypes.json /usr/local/share/slurm_gcp_docker/conf/nodetypes.json" line to Dockerfile
-#  4. Run ./setup.sh
+#  4. Run gcloud auth login --update-adc
+#  5. Run ./setup.sh
 #
 #  <command>
 #  cd slurm_gcp_docker/src/ && ./setup.sh && ./install_service.py
