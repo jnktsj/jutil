@@ -1,5 +1,5 @@
 # Create mount point
-sudo mkdir /mnt/nfs && chmod 777 /mnt/mfs
+sudo mkdir /mnt/nfs && chmod 777 /mnt/nfs
 
 # Install required packages for wolF
 sudo apt-get install -y nfs-common docker.io nfs-kernel-server
