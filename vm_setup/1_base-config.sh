@@ -25,6 +25,7 @@ sudo apt-get install -y \
   libncurses-dev \
   liblzma-dev \
   libbz2-dev \
+  libhdf5-dev \
   lbzip2 \
   libcurl4-openssl-dev
 
