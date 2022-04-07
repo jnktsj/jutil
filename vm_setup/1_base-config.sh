@@ -34,7 +34,7 @@ sudo apt-get install -y python3 python3-pip python3-dev
 sudo pip3 install --upgrade pip
 sudo pip3 install --upgrade Pillow
 sudo pip3 install pandas numpy scipy matplotlib seaborn
-sudo pip3 install virtualenv jupyter ipython rmate
+sudo pip3 install virtualenv jupyter ipython rmate rpy2
 
 
 # install R 3.6.3
