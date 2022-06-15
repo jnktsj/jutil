@@ -1,3 +1,2 @@
-# Lab utils
+# Junko's util scripts and notes
 
-Utility scripts for setting up cloud environments or anything useful for the lab activities.
